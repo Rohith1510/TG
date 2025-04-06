@@ -22,7 +22,7 @@ export default function Header() {
         <Link href="#destinations" className="text-gray-700 hover:text-[#24565c] transition-colors">
           Destinations
         </Link>
-        <Link href="/about" className="text-gray-700 hover:text-[#24565c] transition-colors">
+        <Link href="#map" className="text-gray-700 hover:text-[#24565c] transition-colors">
           GeoMap
         </Link>
         <Link href="#footer" className="text-gray-700 hover:text-[#24565c] transition-colors">

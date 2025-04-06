@@ -10,14 +10,14 @@ export default function Hero() {
       {/* Title and description with description positioned near end of second title line */}
       <div className="mb-6 relative">
         {/* First line of title */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-black leading-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#24565c] leading-tight">
           Discover The Natural Beauty
         </h1>
 
         {/* Second line of title with description */}
         <div className="relative">
           {/* Second line of title */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-black leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#24565c] leading-tight">
             of Bali Island
           </h1>
 

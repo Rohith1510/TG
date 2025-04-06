@@ -7,6 +7,13 @@ import Gallery from '@/components/Gallery';
 import Testimonials from '@/components/Testimonials';
 import TopRecommendations from '@/components/TopRecommendations';
 import Footer from '@/components/Footer';
+import MapWrapper from '@/components/MapWrapper';
+import FAQ from '@/components/FAQ';
+// import dynamic from 'next/dynamic';
+
+// const MapComponent = dynamic(() => import('@/components/map-component'), {
+//   ssr: false,
+// });
 
 export default function Home() {
   return (
@@ -17,8 +24,10 @@ export default function Home() {
       <PopularDestinations />
       <TopRecommendations />
       <Accommodations />
+      <MapWrapper />
       <Gallery />
       <Testimonials />
+      <FAQ/>
       <Footer />
     </main>
   );
