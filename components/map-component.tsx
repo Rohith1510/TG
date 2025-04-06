@@ -7,7 +7,7 @@ import { Icon } from "leaflet";
 import type { LocationData } from "@/types/location";
 import { X } from "lucide-react";
 
-// Fix for default marker icon in react-leaflet
+
 const customIcon = new Icon({
   iconUrl: "https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon.png",
   shadowUrl: "https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png",
@@ -17,7 +17,7 @@ const customIcon = new Icon({
   shadowSize: [41, 41],
 });
 
-// Sample location data
+
 const locations: LocationData[] = [
   {
     id: 1,
@@ -55,7 +55,7 @@ const locations: LocationData[] = [
   },
 ];
 
-// Component to set the map view
+
 function SetMapView({ center }: { center: [number, number] }) {
   const map = useMap();
   useEffect(() => {
@@ -64,7 +64,7 @@ function SetMapView({ center }: { center: [number, number] }) {
   return null;
 }
 
-// Custom hook to detect mobile screens
+
 function useIsMobile() {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -73,13 +73,10 @@ function useIsMobile() {
       setIsMobile(window.innerWidth < 768);
     };
 
-    // Initial check
     checkIsMobile();
 
-    // Add event listener for window resize
     window.addEventListener("resize", checkIsMobile);
 
-    // Cleanup
     return () => window.removeEventListener("resize", checkIsMobile);
   }, []);
 
@@ -102,7 +99,7 @@ export default function MapComponent() {
 
   return (
     <div id="map" className="w-full px-4 py-10">
-      {/* Section title */}
+      
       <div className="text-center mb-6">
         <h2 className="text-3xl md:text-4xl font-bold text-[#24565c]">
           Explore Our Global Highlights
@@ -112,7 +109,7 @@ export default function MapComponent() {
         </p>
       </div>
   
-      {/* Map Card */}
+      
       <div className="bg-white rounded-xl shadow-lg overflow-hidden">
         <div className="relative h-[500px] w-full">
           <MapContainer
@@ -159,7 +156,7 @@ export default function MapComponent() {
         </div>
       </div>
   
-      {/* Mobile location detail panel */}
+      
       {isMobile && activeLocation && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-20 flex flex-col justify-end">
           <div className="bg-white p-4 rounded-t-xl max-h-[70vh] overflow-y-auto">

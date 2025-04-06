@@ -9,11 +9,6 @@ import TopRecommendations from '@/components/TopRecommendations';
 import Footer from '@/components/Footer';
 import MapWrapper from '@/components/MapWrapper';
 import FAQ from '@/components/FAQ';
-// import dynamic from 'next/dynamic';
-
-// const MapComponent = dynamic(() => import('@/components/map-component'), {
-//   ssr: false,
-// });
 
 export default function Home() {
   return (

@@ -2,7 +2,7 @@ export interface LocationData {
     id: number
     name: string
     description: string
-    position: [number, number] // [latitude, longitude]
+    position: [number, number] 
     image: string
     address: string
   }
