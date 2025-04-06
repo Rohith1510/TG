@@ -18,7 +18,7 @@ const FAQ = () => {
         <AccordionItem value="item-2">
           <AccordionTrigger className="text-xl md:text-2xl py-4">Can I cancel or reschedule my booking?</AccordionTrigger>
           <AccordionContent className="text-base md:text-lg leading-relaxed px-2 md:px-4">
-            Yes! Most of our bookings are flexible. You can cancel or reschedule depending on the provider's policy. Check your email confirmation or contact our support team.
+            Yes! Most of our bookings are flexible. You can cancel or reschedule depending on the provider&apos;s policy. Check your email confirmation or contact our support team.
           </AccordionContent>
         </AccordionItem>
 

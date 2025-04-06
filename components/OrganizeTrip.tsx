@@ -7,7 +7,7 @@ export default function OrganizeTrip() {
         <div className="w-full md:w-2/3">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">We Organize Your Trip</h2>
           <p className="mb-6">
-            Bali is an Indonesian island located in the westernmost end of the Lesser Sunda Islands, lying between Java to the west and Lombok to the east. Renowned for its highly developed arts, including traditional and modern dance, sculpture, painting, leather, metalworking, and music, Bali is often referred to as the "Island of the Gods".
+            Bali is an Indonesian island located in the westernmost end of the Lesser Sunda Islands, lying between Java to the west and Lombok to the east. Renowned for its highly developed arts, including traditional and modern dance, sculpture, painting, leather, metalworking, and music, Bali is often referred to as the &quot;Island of the Gods&quot;.
           </p>
           <Button className="bg-[#ddbf68] hover:bg-[#c9ad5e] text-[#24565c] font-medium px-6 py-3 text-lg h-12">
             Get Offer
